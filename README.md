@@ -5,8 +5,8 @@ SpecChecker-ISA is built on top of LLVM. Contributions to this tool are most wel
 ## Table of Contents
 1. [Requirments](#requirments)  
 2. [Using the Tool](#using-the-tool)  
-3. [Inspecting the Output](#Inspecting-the-Output)  
-4. [Contact](#Contact)
+3. [Inspecting the Output](#inspecting-the-output)  
+4. [Contact](#contact)
 ***
 ***
 
@@ -14,7 +14,11 @@ SpecChecker-ISA is built on top of LLVM. Contributions to this tool are most wel
 * Runs on Windows  
 * Install python3
     * https://docs.python.org/3/using/windows.html  
-* Clone the shared data analyzer : https://github.com/wangilson/SpecChecker-ISA
+* Clone the shared data analyzer :  
+```
+git clone https://github.com/wangilson/SpecChecker-ISA
+```
+
 ***
 ***
 
