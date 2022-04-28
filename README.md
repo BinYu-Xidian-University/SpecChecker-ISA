@@ -34,12 +34,12 @@ Display the command line parameters using:
 ```
 cd SpecCheckerISA/bin  
 clang -emit-llvm -c -g -O0 -Xclang -disable-O0-optnone ../example/test.c -o ../example/test.bc
-SpecChecker-ISA.exe ../example/test.bc -t-e=main -t-p=0 -i-e=isr -i-p=1 -o=../SpecCheckerISA/example
+SpecChecker-ISA.exe ../example/test.bc -t-e=main -t-p=0 -i-e=isr -i-p=1 -o=../example
 ```
 You can use `xxx.c` directly as input to the tool.  
 ```
 cd SpecCheckerISA/bin
-SpecChecker-ISA.exe ../example/test.c -t-e=main -t-p=0 -i-e=isr -i-p=1 -o=../SpecCheckerISA/example
+SpecChecker-ISA.exe ../example/test.c -t-e=main -t-p=0 -i-e=isr -i-p=1 -o=../example
 ```
 ***
 
