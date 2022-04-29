@@ -1,9 +1,11 @@
 # SpecChecker-ISA
 This repository hosts SpecChecker-ISA, a tool that provides sound and precise data sharing analysis for interrupt-driven embedded software. 
-SpecChecker-ISA can aid embedded software testers during manual code inspection for concurrency bugs. Researchers and developers can also use it as a solid front-end of concurrency bug detection tool for interrupt-driven embedded software.
-SpecChecker-ISA is built on top of LLVM. Contributions to this tool are most welcome! Also, our video demonstration is presented at http://youtu.be/.
+SpecChecker-ISA supports various data sharing forms and granularity, e.g. global variables, pointer aliasing, array elements, struct/union fields, and I/O address pointers. And SpecChecker-ISA can aid embedded software testers during manual code inspection for concurrency bugs. Researchers and developers can also use it as a solid front-end of concurrency bug detection tool for interrupt-driven embedded software.
+SpecChecker-ISA is built on top of LLVM. Contributions to this tool are most welcome!  
+  
+**Also, our video demonstration is presented at http://youtu.be/.**
 ## Table of Contents
-1. [Requirments](#requirments)  
+1. [Requirements](#requirements)  
 2. [Using the Tool](#using-the-tool)  
 3. [Inspecting the Output](#inspecting-the-output)  
 4. [Contact](#contact)
@@ -76,4 +78,4 @@ g_v	| 0	| 4	| W	| isr	| IOOutClr | ..\example\test.c	| 33	| 9
 ***
 
 ## Contact
-If you experience any issues, please submit an issue or contact us at wangbx@sunwiseinfo.com , chenrui@sunwiseinfo.com
+If you experience any issues, please submit an issue or contact us at wangbx@sunwiseinfo.com , chenrui@sunwiseinfo.com.
